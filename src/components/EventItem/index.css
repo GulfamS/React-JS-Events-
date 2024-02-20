@@ -1,0 +1,48 @@
+.event-list-item {
+  list-style-type: none;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .event-list-item {
+    width: 45%;
+  }
+}
+
+.event-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.event-img {
+  width: 150px;
+  max-width: 460px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+}
+
+.event-name {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.event-location {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 12px;
+}
